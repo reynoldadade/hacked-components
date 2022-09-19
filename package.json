@@ -24,7 +24,6 @@
     }
   },
   "dependencies": {
-    "hacked-components": "hacked-components-0.0.0.tgz",
     "vue": "^3.2.37"
   },
   "devDependencies": {
