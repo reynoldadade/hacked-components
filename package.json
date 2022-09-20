@@ -3,6 +3,13 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
+  "keywords": [
+    "vue",
+    "component",
+    "lazyLoading"
+  ],
+  "license": "MIT License",
+  "homepage": "https://master--6328846acc4734acfd6be4fc.chromatic.com",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --emitDeclarationOnly && mv dist/src dist/types && vite build",
