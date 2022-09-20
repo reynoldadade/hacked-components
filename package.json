@@ -1,14 +1,22 @@
 {
   "name": "@reynoldadade/hacked-components",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+  "keywords": [
+    "vue",
+    "component",
+    "lazyLoading"
+  ],
+  "license": "MIT License",
+  "homepage": "https://master--6328846acc4734acfd6be4fc.chromatic.com",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --emitDeclarationOnly && mv dist/src dist/types && vite build",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=a498efae3210"
   },
   "files": [
     "dist"
@@ -40,6 +48,7 @@
     "@types/node": "^18.7.18",
     "@vitejs/plugin-vue": "^3.1.0",
     "babel-loader": "^8.2.5",
+    "chromatic": "^6.9.0",
     "eslint": "^8.23.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-vue": "^9.5.1",
@@ -48,5 +57,7 @@
     "vite": "^3.1.0",
     "vue-loader": "^16.8.3",
     "vue-tsc": "^0.40.4"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "@reynoldadade/hacked-components@0.0.0"
 }

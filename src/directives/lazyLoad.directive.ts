@@ -1,5 +1,5 @@
 import { Directive, createApp } from "vue";
-import { LazyLoadedImage } from "..";
+
 const lazyLoad: Directive = {
   mounted: (el: HTMLElement) => {
     function loadImage() {

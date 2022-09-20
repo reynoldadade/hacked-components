@@ -13,7 +13,7 @@ export default defineConfig({
     },
     rollupOptions: {
       // make sure to externalize dependencies that shouldnt be bundled into your library
-      external: ["vue"],
+      external: ["vue", "@mdx-js/react"],
       output: {
         //provide global variables to use in the UMD build for externalized builds
         globals: {

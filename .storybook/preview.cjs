@@ -1,3 +1,6 @@
+import "../src/style.css";
+import LazyLoadDirective from "../src/directives/lazyLoad.directive";
+import { app } from "@storybook/vue3";
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
@@ -6,4 +9,7 @@ export const parameters = {
       date: /Date$/,
     },
   },
-}
+};
+
+// registering directives
+app.directive("lazyLoad", LazyLoadDirective);
