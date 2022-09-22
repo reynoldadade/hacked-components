@@ -36,6 +36,9 @@
   "dependencies": {
     "vue": "^3.2.37"
   },
+  "peerDependencies": {
+    "vue": "^3.2.37"
+  },
   "devDependencies": {
     "@babel/core": "^7.19.1",
     "@storybook/addon-actions": "^6.5.12",
